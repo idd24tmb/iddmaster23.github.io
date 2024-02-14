@@ -4,6 +4,7 @@ body {
     overflow-x: hidden;
     font-family: 'Source Han Sans JP';
 }
+
 .btn {
     position: fixed;
     top: 48%;
@@ -18,9 +19,11 @@ body {
     transition: background-image 0.2s ease;
     z-index: 1000;
 }
+
 .btn.active {
     background-image: url("data:image/svg+xml,%3csvg%20width='94'%20height='51'%20viewBox='0%200%2094%2051'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3crect%20x='0.5'%20y='0.5'%20width='93'%20height='50'%20rx='25'%20fill='white'%20stroke='black'/%3e%3cpath%20d='M85.5%2025.5C85.5%2034.8757%2077.6784%2042.5%2068%2042.5C58.3216%2042.5%2050.5%2034.8757%2050.5%2025.5C50.5%2016.1243%2058.3216%208.5%2068%208.5C77.6784%208.5%2085.5%2016.1243%2085.5%2025.5Z'%20fill='%23CCFF00'%20stroke='black'/%3e%3c/svg%3e");
 }
+
 .btn:before {
     content: '';
     position: absolute;
@@ -34,12 +37,15 @@ body {
     transition: opacity 0.2s ease;
     pointer-events: none;
 }
+
 .btn.active:before {
     opacity: 1;
 }
+
 .myCanvas {
     position: fixed;
 }
+
 ._canvasContainer_n8fdp_1 {
     position: fixed;
     top: 0vw;
@@ -48,6 +54,7 @@ body {
     height: 100vh;
     z-index: 100;
 }
+
 ._describe_1gp0a_1 {
     width: 400px;
 }
@@ -88,14 +95,11 @@ body {
     margin-top: 10px;
 }
 
-.message {
-}
+.message {}
 
-.works {
-}
+.works {}
 
-.researchGroup {
-}
+.researchGroup {}
 
 .info__date {
     display: block;
@@ -202,19 +206,19 @@ h3 {
 
 /* hover interaction */
 .message:hover {
-    cursor: url('./image/icon_message.png') 32 32, auto;
+    cursor: url('./assets/image/icon_message.png') 32 32, auto;
 }
 
 .works:hover {
-    cursor: url('./image/icon_work.png') 32 32, auto;
+    cursor: url('./assets/image/icon_work.png') 32 32, auto;
 }
 
 .researchGroup:hover {
-    cursor: url('./image/icon_researchGroup.png') 32 32, auto;
+    cursor: url('./assets/image/icon_researchGroup.png') 32 32, auto;
 }
 
 .date__place:hover {
-    cursor: url('./image/icon_place.png') 32 32, auto;
+    cursor: url('./assets/image/icon_place.png') 32 32, auto;
 }
 
 /* previous code */
@@ -224,14 +228,17 @@ h3 {
 }
 
 @keyframes _backgroundFloat_wxohh_1 {
+
     0%,
     to {
         background-position: center;
     }
+
     50% {
         background-position: calc(50% - 30px) calc(50% - 30px);
     }
 }
+
 ._backgroundContainer_wxohh_11 {
     position: fixed;
     top: 0;
